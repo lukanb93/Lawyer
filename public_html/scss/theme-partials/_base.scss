@@ -9,3 +9,20 @@ body{
     font-weight: $font-weight-light;
     color: $gray-900;
 }
+
+main{
+    padding-top: 54.5px;
+}
+
+@media(min-width:576px){
+    main{
+        padding-top: 67px;
+    }
+}
+
+@media(min-width:992px){
+    main{
+        padding-top: 77px;
+    }
+}
+

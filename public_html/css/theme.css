@@ -9818,6 +9818,22 @@ body {
   color: #1E1E1E;
 }
 
+main {
+  padding-top: 54.5px;
+}
+
+@media (min-width: 576px) {
+  main {
+    padding-top: 67px;
+  }
+}
+
+@media (min-width: 992px) {
+  main {
+    padding-top: 77px;
+  }
+}
+
 header .navbar .navbar-toggler span {
   display: block;
   width: 30px;
@@ -9848,6 +9864,28 @@ header .navbar .navbar-nav a {
   header .navbar-nav li {
     margin-left: 51px;
   }
+}
+
+.lead-page-section {
+  padding: 140px 0;
+  background-position: right top;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+
+.lead-page-section .lead-section-content {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.lead-page-section .lead-section-content .lead-section-title {
+  font-size: 5rem;
+  line-height: 6.4rem;
+}
+
+.lead-page-section .lead-section-content .lead-section-description {
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  margin-bottom: 27px;
 }
 
 /*# sourceMappingURL=theme.css.map */
