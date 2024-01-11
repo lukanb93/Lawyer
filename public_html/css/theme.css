@@ -9968,4 +9968,21 @@ header .navbar .navbar-nav a {
   }
 }
 
+.info-section {
+  padding: 75px 0 69px;
+  background-color: #11284B;
+}
+
+.info-section p, .info-section a {
+  color: #586C88;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  font-weight: 400;
+}
+
+.info-section p span, .info-section a span {
+  margin-right: 12px;
+  font-size: 2rem;
+}
+
 /*# sourceMappingURL=theme.css.map */
