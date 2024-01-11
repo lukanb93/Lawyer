@@ -33,6 +33,24 @@ $(document).ready(function () {
 
     animation();
 
+    if ('.team-members-slider'.length) {
+        $(".team-members-slider").owlCarousel(
+                {
+                    responsive: {
+                        0: {
+                            items: 1,
+                            margin: 0
+                        },
+                        992: {
+                            items: 2,
+                            margin: 30
+                        }
+                    }
+                }
+
+        );
+    }
+    ;
 
 
 

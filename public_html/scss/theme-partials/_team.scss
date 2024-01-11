@@ -1,0 +1,48 @@
+$bg-light : $light;
+
+.team-section{
+    padding: 67px 0 61px;
+    background-color: $bg-light;
+    .team-header{
+        margin-bottom: 20px;
+        .team-see-more{
+            font-size: 1.4rem;
+            line-height: 1.7rem;
+            letter-spacing: 1px;
+            font-weight: $font-weight-medium;
+            text-decoration: none;
+            
+        }
+    }
+    .team-member{
+        .team-name{
+            margin-bottom: 15px;
+        }
+        .team-info{
+            margin-bottom: 30px;
+        }
+        .fa-brands{
+            font-size: 3rem;
+            color: $gray-600;
+            text-decoration: none;
+        }
+    }
+}
+
+@media(min-width:576px){
+    .team-section{
+        .team-member{
+            .team-info{
+                margin-bottom: 80px;
+            }
+        }
+    }
+}
+
+@media(min-width:992px){
+    .team-section{
+        .team-header{
+            margin-bottom: 60px;
+        }
+    }
+}
