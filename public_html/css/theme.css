@@ -9921,6 +9921,11 @@ header .navbar .navbar-nav a {
   margin-bottom: 2.7rem;
 }
 
+.services-section .service-item a:hover img {
+  transition: 1.5s all;
+  transform: rotateY(360deg);
+}
+
 .services-section .service-item a span {
   color: #1E1E1E;
 }
@@ -9958,7 +9963,7 @@ header .navbar .navbar-nav a {
 
 @media (min-width: 576px) {
   .team-section .team-member .team-info {
-    margin-bottom: 80px;
+    margin-bottom: 100px;
   }
 }
 

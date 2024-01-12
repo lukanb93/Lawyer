@@ -36,6 +36,8 @@ $(document).ready(function () {
     if ('.team-members-slider'.length) {
         $(".team-members-slider").owlCarousel(
                 {
+                    autoplay : true,
+                    loop : true,
                     responsive: {
                         0: {
                             items: 1,
