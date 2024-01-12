@@ -1,4 +1,6 @@
 $service-font-color: $gray-900;
+$dark-service-bg : #11284B;
+$dark-service-text : #F5F5F5;
 
 .services-section{
     padding: 77px 0px 80px;
@@ -6,8 +8,7 @@ $service-font-color: $gray-900;
     h2{
         margin-bottom: 4.5rem;
     }
-    .service-item{
-            
+    .service-item{            
             margin-bottom: 2.7rem;
                 a{
                     &:hover img{
@@ -16,8 +17,28 @@ $service-font-color: $gray-900;
                     }
                     span{
                       color: $service-font-color;  
-                    }
-                   
+                    }                  
                 }
+        }
+        &.dark-services-section{
+            background-color: $dark-service-bg;
+            h2{
+                color: $primary;
+            }
+            .service-item{
+                p{
+                    font-size: 1.6rem;
+                    line-height: 2.5rem;
+                    height: 7.5rem;
+                    overflow: hidden;
+                    color: $dark-service-text;
+                    font-weight: $font-weight-light;
+                }
+                a{
+                    line-height: 1.7rem;
+                    font-weight: $font-weight-medium;
+                    color: $primary;
+                }
+            }
         }
 }

@@ -9930,6 +9930,29 @@ header .navbar .navbar-nav a {
   color: #1E1E1E;
 }
 
+.services-section.dark-services-section {
+  background-color: #11284B;
+}
+
+.services-section.dark-services-section h2 {
+  color: #1A77CD;
+}
+
+.services-section.dark-services-section .service-item p {
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  height: 7.5rem;
+  overflow: hidden;
+  color: #F5F5F5;
+  font-weight: 300;
+}
+
+.services-section.dark-services-section .service-item a {
+  line-height: 1.7rem;
+  font-weight: 500;
+  color: #1A77CD;
+}
+
 .team-section {
   padding: 67px 0 61px;
   background-color: #F6F5F6;
