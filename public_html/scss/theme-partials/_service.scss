@@ -42,3 +42,20 @@ $dark-service-text : #F5F5F5;
             }
         }
 }
+
+.single-service-section{
+    padding: 50px 0;
+    .single-service-content{
+        ul{
+            list-style: none;
+            padding-left: 0;
+        }
+    }
+}
+
+@media(min-width:992px){
+    .single-service-section{
+       padding: 107px 0 85px; 
+    }
+    
+}
