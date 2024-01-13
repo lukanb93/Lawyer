@@ -11,7 +11,7 @@ $bg-light : $light;
             letter-spacing: 1px;
             font-weight: $font-weight-medium;
             text-decoration: none;
-            
+
         }
     }
     .team-member{
@@ -44,6 +44,50 @@ $bg-light : $light;
         .team-header{
             margin-bottom: 60px;
         }
-        
+
+    }
+}
+
+.team-members-section{
+    padding: 40px 0 70px;
+    h2{
+        margin-bottom: 40px;
+    }
+    .team-member-content{
+        figure{
+            margin-bottom: 22px;
+            .team-member-social{
+                position: absolute;
+                right: 15px;
+                bottom: 16px;
+                color: $white;
+                font-size: 3rem;
+                text-decoration: none;
+            }
+        }
+        .team-member-name{
+            a{
+              color: $gray-900;
+              text-decoration: none;
+              font-size: 2.2rem;
+              line-height: 2.7rem;
+              font-weight: $font-weight-medium;
+              margin-bottom: 9px;
+            }
+            
+        }
+        .team-member-position{
+            color: $primary;
+            font-size: 1.8rem;
+            line-height: 2.7rem;
+            font-weight: $font-weight-medium;
+        }
+
+    }
+}
+
+@media(min-width:992px){
+    .team-members-section{
+        padding: 64px 0 110px;
     }
 }

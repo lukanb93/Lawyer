@@ -32,3 +32,12 @@ $sizes: map-merge(
 );
 
 $light: #F6F5F6;
+
+$grid-breakpoints: (
+  xs: 0,
+  xm: 440px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);

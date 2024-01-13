@@ -13,7 +13,7 @@ $dark-service-text : #F5F5F5;
                 a{
                     &:hover img{
                         transition: 1.5s all;
-                        transform: rotateY(360deg);
+                        transform: rotateY(180deg);
                     }
                     span{
                       color: $service-font-color;  
