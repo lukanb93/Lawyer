@@ -1,0 +1,34 @@
+.news-single-section{
+    
+    p{
+        span{}
+        line-height: 2.7rem !important;
+    }
+    h1{
+        font-size: 3.6rem !important;
+        line-height: 4.6rem !important;
+    }
+}
+
+.news-single-content{
+    padding: 67px 0;
+    p{
+        margin-bottom: 3rem;
+    }
+    .news-tags{
+        .tags-title{
+            font-weight: $font-weight-medium;
+            line-height: 2.7rem;
+        }
+        .tags{
+            a{
+                margin-right: 1.5rem; 
+            }
+        }
+    }
+}
+@media(min-width:992px){
+    .news-single-content{
+        padding: 67px 0 144px;
+    }
+}

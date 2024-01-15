@@ -10951,4 +10951,36 @@ footer .copyright a {
   }
 }
 
+.news-single-section p {
+  line-height: 2.7rem !important;
+}
+
+.news-single-section h1 {
+  font-size: 3.6rem !important;
+  line-height: 4.6rem !important;
+}
+
+.news-single-content {
+  padding: 67px 0;
+}
+
+.news-single-content p {
+  margin-bottom: 3rem;
+}
+
+.news-single-content .news-tags .tags-title {
+  font-weight: 500;
+  line-height: 2.7rem;
+}
+
+.news-single-content .news-tags .tags a {
+  margin-right: 1.5rem;
+}
+
+@media (min-width: 992px) {
+  .news-single-content {
+    padding: 67px 0 144px;
+  }
+}
+
 /*# sourceMappingURL=theme.css.map */
