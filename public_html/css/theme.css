@@ -2038,7 +2038,7 @@ pre code {
 }
 
 .form-control::placeholder {
-  color: #6c757d;
+  color: rgba(88, 108, 136, 0.8);
   opacity: 1;
 }
 
@@ -10980,6 +10980,51 @@ footer .copyright a {
 @media (min-width: 992px) {
   .news-single-content {
     padding: 67px 0 144px;
+  }
+}
+
+.contact-lead-section p, .contact-lead-section a {
+  color: #586C88;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  font-weight: 400;
+}
+
+.contact-lead-section p span, .contact-lead-section a span {
+  margin-right: 12px;
+  font-size: 2rem;
+}
+
+.contact-section {
+  padding: 64px 0;
+}
+
+.contact-section h2 {
+  line-height: 4.6rem !important;
+}
+
+.contact-section .form-control {
+  background-color: rgba(37, 61, 97, 0.02);
+  border: none;
+  height: 50px !important;
+  line-height: 50px;
+  padding: 0 10px;
+  margin-bottom: 19px;
+}
+
+.contact-section textarea.form-control {
+  resize: none;
+  height: 350px !important;
+}
+
+.contact-section .error-msg {
+  color: #dc3545;
+  font-size: 1.2rem;
+}
+
+@media (min-width: 992px) {
+  .contact-section {
+    padding: 64px 0 128px;
   }
 }
 
